@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Site de receitas" />
+  <meta name="keywords" content="Receitas, Paty, Livro de receitas, receita, receita comida, receita doce" />
+  <meta name="author"
+    content="Yasmin Perestrelo da Silva" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" type="text/css" href="../css/TelaReceita.css">
+  <link rel="stylesheet" type="text/css" href="../css/TelaVisualizarReceitas.css">
+
+  <!--Link Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+   <!--Link google fonts (Cherry Swash)-->
+  <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap" rel="stylesheet">
+
+  <!--ícone no navegador-->
+  <!--<link rel="shortcut icon" type="image/png" sizes="32x32" href="../ImagemNavegador/img/favicon.ico" >-->
+
+  <title>Receitas Paty</title>
+
+  <!--Link do FontAwesome-->
+  <script src="https://kit.fontawesome.com/0f8bd558ab.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <section>
+      <!--Navbar Superior - Pc e tablet-->
+      <nav style="position: fixed;" class="navbar navbar-expand-lg col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="fluido-navbar container-fluid" style="height: 70px;">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1">
+                <figure>
+                  <img class="logo" src="../img/Receitas_Paty_Logo.png" alt="Logo Livrando">
+                </figure>
+              </div>
+              <div class="d-none d-sm-block col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                <h1 class="navbar-brand título-receitas-paty text-white">Receitas Paty</h1>
+              </div>
+              <div class="d-none d-sm-block col-sm-auto col-md-4 col-lg-5 col-xl-5"></div>
+              <div class="col-10 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <div class="row">
+                  <ul class="lista d-flex col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <li class="nav-item d-flex col-1 col-sm-1 col-md-1 col-lg-2 col-xl-3">
+                      <a id="pesquisa" class="inicio nav-link" href="#">Início</a></li>
+                    <li class="nav-item d-flex col-1 col-sm-1 col-md-1 col-lg-2 col-xl-3">
+                      <a style="color: #373737;" class="receitas nav-link" href="../index.html">Receitas</a>
+                    </li>
+                    <li class="teste nav-item d-flex col-10 col-sm-11 col-md-10 col-lg-7 col-xl-6">
+                      <a class="add-receitas nav-link" href="../TelaAddReceitas/TelaAddReceitas.html">Adicionar receitas</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+  </header>
+
+  <main>
+    <section>
+      <div class="div-tamanho-navbar"><br></div>
+      <div class="container">
+        <div class="row">
+          <div class="título-receitas col-12 col-sm-6 col-md-5 col-lg-5 col-xl-5">
+            <!-- Bolo de Prestígio -->
+            <div class="card2 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <img src="../img/Bolos/bolo-prestigio.svg" class="card-img-top" alt="Bolo de Prestígio">
+              <div class="card-body">
+                <div class="container"><br>
+                  <h5 class="card-title">O que é um Bolo de Prestígio?</h5><br>
+                  <p>É uma massa de chocolate recheado com recheio de chocolate ou cocada cremosa. Sua decoração é feita com uma cobertura de chocolate ou beijinhos de coco, pode conter coco ralado.</p>
+                <!-- <p>Bolinho de chuva é uma especialidade típica tanto em Portugal como no Brasil. É feito de farinha de trigo, ovos, leite e fermento químico ou bicarbonato de sódio. Os bolinhos são fritos em óleo quente e polvilhados com canela e açúcar.</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-none d-sm-block col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
+          <div class="informações col-12 col-sm-5 col-md-6 col-lg-6 col-xl-6">
+            <!--informações-->
+            <h3>Informações</h3>
+            <hr>
+            <div class="row">
+              
+              <div class="info-card col-3 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                <span>Preparo: </span>
+              </div>
+              <div class="info-resp col-2 col-sm-5 col-md-2 col-lg-2 col-xl-2">
+                <span class="text-white">30min</span>
+              </div>
+              <div class="col-1 d-sm-none d-md-block col-md-1 col-lg-1 col-xl-1"></div>
+              <div class="info-card col-3 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                <span>Tipo: </span>
+              </div>
+              <div class="info-resp col-3 col-sm-5 col-md-3 col-lg-3 col-xl-2">
+                <span class="text-white">sobremesa</span>
+              </div>
+
+              <div class="info-card col-3 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                <span>Serve: </span>
+              </div>
+              <div class="info-resp col-3 col-sm-5 col-md-3 col-lg-3 col-xl-2">
+                <span class="text-white">4 pessoas</span>
+              </div>
+              <div class="col-1 d-sm-none d-md-block col-md-1 col-lg-1 col-xl-1"></div>
+              <div class="info-card col-3 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                <span>Categoria: </span>
+              </div>
+              <div class="info-resp col-2 col-sm-5 col-md-2 col-lg-2 col-xl-2">
+                <span class="text-white">bolo</span>
+              </div>
+            </div>
+            <br><br>
+            <!--Tabela-->
+            <div class="tabela col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="container">
+                <h4>Ingredientes</h4>
+                <hr>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Massa</th>
+                      <th scope="col">Recheio</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th class="massa" scope="col">
+                        <ul>
+                          <li>6 gemas;</li>
+                        </ul>
+                      </th>
+                      <th class="recheio" scope="col">
+                        <ul>
+                          <li>2 colheres de margarina.</li>
+                        </ul>
+                      </th>
+                    </tr>
+                    <tr>
+                      <th class="massa" scope="col">
+                        <ul>
+                          <li>1/2 pacote de manteiga sem sal;</li>
+                        </ul>
+                      </th>
+                      <th class="recheio" scope="col">
+                        <ul>
+                          <li>3 xícaras de água;</li>
+                        </ul>
+                      </th>
+                    </tr>
+                    <tr>
+                      <th class="massa" scope="col">
+                        <ul>
+                          <li>2 e 1/2 xícaras de açúcar;</li>
+                        </ul>
+                      </th>
+                    </tr>
+                    <tr>
+                      <th class="massa" scope="col">
+                        <ul>
+                          <li>1 colher de sobremesa de fermento;</li>
+                        </ul>
+                      </th>
+                    </tr>
+                    <tr>
+                      <th class="massa" scope="col">
+                        <ul>
+                          <li>1 xícara de chocolate em pó;</li>
+                        </ul>
+                      </th>
+                    </tr>
+                    <tr>
+                      <th class="massa" scope="col">
+                        <ul>
+                          <li>2 xícaras de farinha de trigo;</li>
+                        </ul>
+                      </th>
+                    </tr>
+                    <tr>
+                      <th class="massa" scope="col">
+                        <ul>
+                          <li>Um pouco mais de meio copo de leite de vaca.</li>
+                        </ul>
+                      </th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              
+            </div>
+          </div>
+          <div class="passo-a-passo col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <h3>Modo de fazer a massa: </h3>
+            <div class="row massa"> 
+              <div class="numero-card col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                <span class="text-white">1</span>
+              </div>
+              <div class="passo-card col-10 col-sm-11 col-md-11 col-lg-11 col-xl-11">
+                <span>Bata as gemas, com a manteiga, o açúcar e o fermento. </span>
+              </div>
+
+              <div class="numero-card col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                <span class="text-white">2</span>
+              </div>
+              <div class="passo-card col-10 col-sm-11 col-md-11 col-lg-11 col-xl-11">
+                <span>Depois que estiver bem batido, misture o chocolate em pó, a farinha de trigo e o leite.  </span>
+              </div>
+
+              <div class="numero-card col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                <span class="text-white">3</span>
+              </div>
+              <div class="passo-card col-10 col-sm-11 col-md-11 col-lg-11 col-xl-11">
+                <span>Junte as claras em neve. </span>
+              </div>
+            </div>
+
+            <h3>Modo de fazer o recheio: </h3>
+            <div class="row recheio"> 
+              <div class="numero-card col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                <span class="text-white">1</span>
+              </div>
+              <div class="passo-card col-10 col-sm-11 col-md-11 col-lg-11 col-xl-11">
+                <span>Bata o açúcar com a manteiga, o creme de leite e o Nescau.</span>
+              </div>
+
+              <div class="numero-card col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                <span class="text-white">2</span>
+              </div>
+              <div class="passo-card col-10 col-sm-11 col-md-11 col-lg-11 col-xl-11">
+                <span>Cortar o bolo ao meio, rechear com a metade e o restante cobrir o bolo e salpicar com chocolate granulado e levar à geladeira.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section>
+      <div class="rodape col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="container">
+          <div class="row">
+            <div class="col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+              <ul class="conteudo-rodape d-flex col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <li style="margin-left: -30px;">
+                  <a id="quemSomos" href="#">Quem somos?</a>
+                </li>
+                <li>
+                  <a id="faleConosco" href="#">Fale conosco</a>
+                </li>
+                <li>
+                  <a href="#">Adicionar receitas</a>
+                </li>
+              </ul>
+            </div>
+            <div class=" rede-social col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+              <a href="https://instagram.com/livrando___" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://m.facebook.com/profile.php?id=100082242854451" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://twitter.com/IfspLivrando" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.youtube.com/channel/UCUL9EBSUOC52KpyR5jM37rA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+          <hr style="color: white;">
+          <p id="creditos" class="creditos">
+            © Livrando.com.br Serviços de Busca na Internet Ltda - CNPJ 00.000.000/0000-00<br>
+            Rua xxxxxxxxxx, 000, 00 e 00 andar, Centro, São Paulo/SP, CEP: 00000-000 - atendimento@livrando.com.br
+          </p>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <!--Caminho do JavaScript-->
+  <script type="text/javascript" src="../js/TelaReceita.js"></script>
+  <!--JavaScript Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

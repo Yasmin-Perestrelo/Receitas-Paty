@@ -3,10 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
+  
   font-family: sans-serif;
   outline: none;
-  list-style: none;
+  
 }
   
 /*geral para todos os links, parágrafos, títulos, label e select*/
@@ -21,9 +21,16 @@ h5,
 h6,
 label,
 select,
-span {
+span,
+tr,
+td,
+th {
   font-family: 'Cherry Swash', cursive;
   color: #373737;
+}
+
+body {
+	background-color: #FFF8F6!important;
 }
 
 /* ------------ NAVBAR ------------ */
@@ -66,7 +73,9 @@ span {
   margin-left: -8%;
 }
 
-/**/
+
+
+/*------------ CONTEÚDO ------------*/
 /*título "Receitas"*/
 .título-receitas h1{
   font-size: 26px;
@@ -100,11 +109,12 @@ span {
   padding-top: 1.5%;
   padding-left: 2%;
   border-radius: 5px 0px 0px 5px;
+  background-color: white;
 }
 
 /*botão de pesquisa transparente*/
 #btn-transparente {
-  background-color: transparent;
+  background-color: white;
   text-decoration: none;
   border: none;
 }
@@ -144,7 +154,7 @@ form {
   margin-top: 2%;
 }
 
-.card {
+.card1 {
   margin: 0% 0% 2% 1.7%;
   width: 262px!important;
   background-color: #F47B6A!important;
@@ -153,16 +163,16 @@ form {
   border-radius: 15px 15px!important;
 }
 
-.card a {
+.card1 a {
   text-decoration: none;
   color: white;
 }
 
-.card img {
+.card1 img {
   border-radius: 15px 15px 0px 0px!important;
 }
 
-.card h5 {
+.card1 h5 {
   text-align: center;
   font-size: 18px;
   color: white;
@@ -177,11 +187,11 @@ form {
   margin-left: -1%;
 }
 
-.card a:hover {
+.card1 a:hover {
   color: white;
 }
 
-.card:hover {
+.card1:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.40);
   transition: all 0.3s ease;
 }
@@ -238,6 +248,7 @@ form {
 
 .conteudo-rodape li {
   margin-left: 5%;
+  list-style: none;
 }
 
 .conteudo-rodape a:hover {
@@ -271,7 +282,7 @@ form {
 
 /* ------------ RESPONSIVIDADE ------------ */
 @media (min-width: 1400px) {
-  .card {
+  .card1 {
     margin: 0% 0% 2% 4.3%;
   }
 }
@@ -286,7 +297,7 @@ form {
     margin-left: -85%;
   }
 
-  .card {
+  .card1 {
     margin: 0% 0% 2% 4.5%;
   }
 }
@@ -305,7 +316,7 @@ form {
     margin-left: -150%;
   }
 
-  .card {
+  .card1 {
     margin: 0% 0% 2% 9.5%;
   }
 
@@ -371,7 +382,7 @@ form {
     margin-top: -5%!important;
   }
 
-  .card {
+  .card1 {
     margin-left: 27%;
   }
 
@@ -383,7 +394,7 @@ form {
 
 @media (max-width: 575px) {
   .card {
-    margin-left: 20%;
+    margin-left: 19%;
   }
 
   .logo {
