@@ -1,0 +1,404 @@
+/*Resetando os valores padrões da página*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  outline: none;
+  list-style: none;
+}
+  
+/*geral para todos os links, parágrafos, títulos, label e select*/
+li,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+select,
+span {
+  font-family: 'Cherry Swash', cursive;
+  color: #373737;
+}
+
+/* ------------ NAVBAR ------------ */
+/*conteúdo ficar no lugar certo*/
+.div-tamanho-navbar {
+  width: 100%;
+  height: 100px;
+}
+
+/*menu*/
+.navbar {
+  background-color: #F5A079;
+  height: 70px;
+  z-index: 1;
+  padding-top: 1.8%!important;
+}
+
+/*imagem da logo*/
+.logo {
+  width: 120%;
+}
+
+/*título receitas paty navbar*/
+.título-receitas-paty {
+  margin-top: -5%;
+}
+
+.navbar li .nav-link {
+  color: white;
+}
+
+.navbar li .receitas:hover,
+.navbar li .inicio:hover,
+.navbar li .add-receitas:hover {
+  color: #373737;
+  transition: all 0.6s ease;
+}
+
+.navbar li .receitas {
+  margin-left: -8%;
+}
+
+/**/
+/*título "Receitas"*/
+.título-receitas h1{
+  font-size: 26px;
+}
+
+/*input de pesquisa*/
+.pesquisa {
+  margin-left: -6px;
+  border-left: 0px !important;
+  border-radius: 0px 5px 5px 0px !important;
+  font-family: 'Inter', sans-serif;
+  border: none !important;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.10);
+}
+
+/*texto que fica dentro do campo pesquisa*/
+.pesquisa::placeholder {
+  color: rgba(0, 0, 0, 0.25) !important;
+}
+
+/*ícone de lupa*/
+.lupa {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+/*botão não clicável de lupa*/
+.lupa-div {
+  border: none !important;
+  box-shadow: -3px 4px 4px rgba(0, 0, 0, 0.10);
+  width: 10%;
+  padding-top: 1.5%;
+  padding-left: 2%;
+  border-radius: 5px 0px 0px 5px;
+}
+
+/*botão de pesquisa transparente*/
+#btn-transparente {
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+}
+
+#btn-Bolos,
+#btn-Doces,
+#btn-Salgados {
+  text-decoration: none;
+  color:#373737;
+  margin-left: 20%;
+  text-align: center;
+  font-size: 18px;
+}
+
+#btn-Bolos:hover,
+#btn-Doces:hover,
+#btn-Salgados:hover {
+  color: #F47B6A;
+  transition: all 0.3s ease;
+}
+
+.título-Bolos,
+.título-Doces,
+.título-Salgados {
+  margin-right: 10%;
+}
+
+.título-Salgados {
+  width: 11%!important;
+}
+
+
+
+/**/
+form {
+  display: flex;
+  margin-top: 2%;
+}
+
+.card {
+  margin: 0% 0% 2% 1.7%;
+  width: 262px!important;
+  background-color: #F47B6A!important;
+  padding: 0px!important;
+  border: none!important;
+  border-radius: 15px 15px!important;
+}
+
+.card a {
+  text-decoration: none;
+  color: white;
+}
+
+.card img {
+  border-radius: 15px 15px 0px 0px!important;
+}
+
+.card h5 {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+.card-body p {
+  font-size: 12px;
+  color: white;
+}
+
+.card-body p:last-child {
+  margin-left: -1%;
+}
+
+.card a:hover {
+  color: white;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.40);
+  transition: all 0.3s ease;
+}
+
+
+
+/*paginação*/
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.controls div {
+  cursor: pointer;
+  border: 1px solid #eee;
+  background-color: #F47B6A;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14;
+}
+
+.controls div:not(.numbers),
+.controls div.numbers div{
+  width: 40px;
+  height: 40px;
+}
+
+.controls div.numbers div:hover,
+.controls div.numbers div.active {
+  color: #F47B6A;
+  background-color: white;
+  transition: all 0.2s ease;
+}
+
+
+
+/* ------------ FOOTER ------------ */
+.rodape {
+  width: auto;
+  background-color: #F5A079;
+  padding-bottom: 0.5%;
+  padding-top: 3%;
+}
+
+.conteudo-rodape li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.conteudo-rodape li {
+  margin-left: 5%;
+}
+
+.conteudo-rodape a:hover {
+  color: #373737;
+  transition: all 0.6s ease;
+}
+
+.creditos {
+  font-size: 10px;
+  color: white;
+}
+
+.fa-instagram,
+.fa-facebook,
+.fa-twitter,
+.fa-youtube {
+  font-size: 30px;
+  color: white;
+  margin-left: 5%;
+}
+
+.fa-instagram:hover,
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-youtube:hover {
+  color: #373737;
+  transition: all 0.6s ease;
+}
+
+
+
+/* ------------ RESPONSIVIDADE ------------ */
+@media (min-width: 1400px) {
+  .card {
+    margin: 0% 0% 2% 4.3%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar li .receitas,
+  .navbar li .inicio{
+    margin-left: -60%;
+  }
+
+  .navbar li .inicio {
+    margin-left: -85%;
+  }
+
+  .card {
+    margin: 0% 0% 2% 4.5%;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar li {
+    margin-top: -5%;
+  }
+
+  .navbar li .receitas,
+  .navbar li .inicio{
+    margin-left: 17%;
+  }
+
+  .navbar li .inicio {
+    margin-left: -150%;
+  }
+
+  .card {
+    margin: 0% 0% 2% 9.5%;
+  }
+
+  .fa-instagram,
+  .fa-facebook,
+  .fa-twitter,
+  .fa-youtube {
+    font-size: 25px;
+  }
+
+  /*imagem da logo*/
+  .logo {
+    width: 80%;
+    margin-top: -20%;
+  }
+
+  /*título receitas paty navbar*/
+  .título-receitas-paty {
+    margin-top: -35%;
+    margin-left: -40%;
+  }
+
+  .título-receitas .pesquisa {
+    margin-top: 2%!important;
+  }
+
+  .navbar li .receitas,
+  .navbar li .inicio,
+  .navbar li .add-receitas {
+    margin-top: 10%;
+  }
+
+  .navbar li .inicio {
+    margin-left: -95px;
+  }
+
+  .navbar li .receitas {
+    margin-left: -55px;
+  }
+
+  .navbar li .add-receitas {
+    margin-top: 1%;
+  }
+
+  .lista {
+    margin-left: 10%;
+    margin-top: -5%!important;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .navbar li .add-receitas {
+    margin-top: 1%;
+  }
+
+  .nav-link {
+    padding: 0px!important;
+  }
+
+  .lista {
+    margin-left: 150px;
+    margin-top: -5%!important;
+  }
+
+  .card {
+    margin-left: 27%;
+  }
+
+  /*imagem da logo*/
+  .logo {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .card {
+    margin-left: 15%;
+  }
+
+  .logo {
+    width: 200%;
+  }
+
+  .lista {
+    margin-top: 2%!important;
+    margin-left: 40%;
+    font-size: 14px;
+  }
+
+  .título-Bolos,
+  .título-Doces,
+  .título-Salgados {
+    margin-right: 12%;
+  }
+}
